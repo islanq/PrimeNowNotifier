@@ -68,7 +68,7 @@ if (!globalStop) {
                 "dateTime": new Date(),
                 "email": userEmail
             }),
-            url: "https://script.google.com/macros/s/AKfycbxCEskfF7qQvbUYaz0eKddO5W2XWMX0D2wx2qcfpD0I4fJHoLV2/exec",
+            url: APP_SCRIPT_ENDPOINT,
             onreadystatechange: function (res) {
                 GM_log("Request state changed to: " + res.readyState);
             },
